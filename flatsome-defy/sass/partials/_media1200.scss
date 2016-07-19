@@ -1,0 +1,74 @@
+/* 1200px Media Query for the Skeleton Grid - http://getskeleton.com 
+*  Adapted by zig for Ellsworth American websites.
+*/
+@media only screen and (min-width: 1200px)  {
+
+	 .container                      { width: 1200px;}
+
+    /* Base Grid */	
+	.container .one.column						{ width: 80px;  }
+	.container .two.columns 					{ width: 180px; }
+	.container .three.columns 					{ width: 280px; }
+	.container .four.columns 					{ width: 380px; }
+	.container .five.columns 					{ width: 480px; }
+	.container .six.columns 					{ width: 580px; }
+	.container .seven.columns 					{ width: 680px; }
+	.container .eight.columns 					{ width: 780px; }
+	.container .nine.columns 					{ width: 880px; }
+	.container .ten.columns 					{ width: 980px; }
+	.container .eleven.columns 					{ width: 1080px; }
+	.container .twelve.columns 					{ width: 1180px; }
+
+    /* Offsets */
+	
+	.container .offset-by-one                	{ padding-left: 100px;  }
+    .container .offset-by-two                	{ padding-left: 200px; }
+    .container .offset-by-three              	{ padding-left: 300px; }
+    .container .offset-by-four               	{ padding-left: 400px; }
+    .container .offset-by-five               	{ padding-left: 500px; }
+    .container .offset-by-six                	{ padding-left: 600px; }
+    .container .offset-by-seven              	{ padding-left: 700px; }
+    .container .offset-by-eight              	{ padding-left: 800px; }
+    .container .offset-by-nine               	{ padding-left: 900px; }
+    .container .offset-by-ten                	{ padding-left: 1000px; }
+    .container .offset-by-eleven             	{ padding-left: 1100px; }
+
+}
+/* next level of bigness */
+
+@media only screen and (min-width: 1480px)  {
+
+	 .container                      { width: 1480px;}
+
+    /* Base Grid */	
+	.container .one.column						{ width: 100px;  }
+	.container .two.columns 					{ width: 220px; }
+	.container .three.columns 					{ width: 340px; }
+	.container .four.columns 					{ width: 460px; }
+	.container .five.columns 					{ width: 580px; }
+	.container .six.columns 					{ width: 700px; }
+	.container .seven.columns 					{ width: 820px; }
+	.container .eight.columns 					{ width: 940px; }
+	.container .nine.columns 					{ width: 1060px; }
+	.container .ten.columns 					{ width: 1180px; }
+	.container .eleven.columns 					{ width: 1300px; }
+	.container .twelve.columns 					{ width: 1420px; }
+
+    /* Offsets */
+	
+	.container .offset-by-one                	{ padding-left: 120px;  }
+    .container .offset-by-two                	{ padding-left: 240px; }
+    .container .offset-by-three              	{ padding-left: 360px; }
+    .container .offset-by-four               	{ padding-left: 480px; }
+    .container .offset-by-five               	{ padding-left: 600px; }
+    .container .offset-by-six                	{ padding-left: 720px; }
+    .container .offset-by-seven              	{ padding-left: 840px; }
+    .container .offset-by-eight              	{ padding-left: 960px; }
+    .container .offset-by-nine               	{ padding-left: 1080px; }
+    .container .offset-by-ten                	{ padding-left: 1200px; }
+    .container .offset-by-eleven             	{ padding-left: 1300px; }
+
+}
+
+
+

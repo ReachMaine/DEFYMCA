@@ -1,0 +1,66 @@
+/* *** styling for tribe events... */
+ .tribe-events-abbr.updated {
+	display: block;
+}
+.tribe-events-list .tribe-events-list-event-title {
+	float: left!important;
+}
+.tribe-events-list .tribe-events-event-cost { // cost on listview
+	float: left;
+	margin-left: 0px;
+	margin-top:10px;
+	clear: both; // zig 16Feb15
+}
+
+.tribe-events-single-section.tribe-events-event-meta  .tribe-events-meta-group.tribe-events-meta-group-details,
+.tribe-events-single-section.tribe-events-event-meta  .tribe-events-meta-group.tribe-events-meta-group-organizer
+ {
+	width: 50%; 
+}
+// conflicting css for columns shortcode & week columns
+.column.tribe-week-grid-hours { // s.t. week events dont show at bottom of time slots.
+	width: 40px;
+}
+.tribe-events-grid .tribe-grid-content-wrap .column {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.slimScrollDiv {
+	height: 790px!important;
+	.tribe-week-grid-wrapper{
+		height: 790px!important;
+	}
+}
+.tribe-vcard {
+	border: 1px solid #DDD;
+}
+
+@media print {
+	body { 
+		// hide stuff when printing....
+		#tribe-events-bar,
+		#tribe-bar-form, // search form
+		#tribe-bar-views, // selecting view
+		.tribe-bar-filters, // search form entries...(JIC)
+		#tribe-events-footer, // next & prev navs
+		.tribe-events-ical // export button
+		{
+			display:none;
+			visibility: hidden;
+			margin: 0px;
+		}
+		#tribe-events-content {
+			h2.tribe-events-page-title {
+				font-size: 20px;
+				a {
+					font-size: 20px;
+				}
+			}
+		}
+
+		
+
+	}
+}
+/* *** end styling for tribe events... */
+

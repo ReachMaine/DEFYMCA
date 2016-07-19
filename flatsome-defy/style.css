@@ -1,0 +1,155 @@
+@import url("../flatsome/css/foundation.css");
+/*  
+	Theme Name: defy
+	Description: Flatsome child theme for DEFY
+	Author: LSpeight, Reach Maine Internet Marketing.
+	Author URI: http://www.reachmaine.com/
+	License: GNU General Public License
+	License URI: license.txt
+	Template: flatsome
+*/
+/*******************begin _settings.scss ************************/
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+h1, h2, h3, h4, h5, h6, h4 span, .zig-h4 {
+  font-family: Verdana, Geneva, sans-serif; }
+
+p, ul, ol {
+  font-family: Verdana, Geneva, sans-serif; }
+
+#site-navigation > li > a {
+  color: white;
+  opacity: 1; }
+
+ul.header-nav li a {
+  font-weight: normal; }
+
+/*******************end _settings.scss ************************/
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@media print {
+  body #masthead a[href]:after, body #site-navigation a[href]:after, body #menu-top-nav-and-footer-nav a[href]:after, body #menu-footer a[href]:after {
+    content: ""; }
+  body a[href]:after {
+    content: ""; }
+  body #top-bar .left-text {
+    padding: 0px;
+    margin: 0px; }
+  body #top-bar .right-text.right.hide-for-small {
+    display: none;
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+    height: 0px; }
+  body #masthead {
+    height: 0px; }
+    body #masthead .header-container {
+      display: block;
+      height: 80px; }
+      body #masthead .header-container #logo {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        vertical-align: top;
+        float: left;
+        display: block;
+        height: 80px; }
+        body #masthead .header-container #logo a {
+          padding-top: 0px; }
+          body #masthead .header-container #logo a img {
+            height: 80px; }
+    body #masthead .mobile-menu {
+      display: none;
+      visibility: hidden;
+      margin: 0px;
+      padding: 0px;
+      height: 0px; }
+
+  .hide-for-print {
+    display: none;
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 0px; } }
+/* *** styling for tribe events... */
+.tribe-events-abbr.updated {
+  display: block; }
+
+.tribe-events-list .tribe-events-list-event-title {
+  float: left !important; }
+
+.tribe-events-list .tribe-events-event-cost {
+  float: left;
+  margin-left: 0px;
+  margin-top: 10px;
+  clear: both; }
+
+.tribe-events-single-section.tribe-events-event-meta .tribe-events-meta-group.tribe-events-meta-group-details,
+.tribe-events-single-section.tribe-events-event-meta .tribe-events-meta-group.tribe-events-meta-group-organizer {
+  width: 50%; }
+
+.column.tribe-week-grid-hours {
+  width: 40px; }
+
+.tribe-events-grid .tribe-grid-content-wrap .column {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.slimScrollDiv {
+  height: 790px !important; }
+  .slimScrollDiv .tribe-week-grid-wrapper {
+    height: 790px !important; }
+
+.tribe-vcard {
+  border: 1px solid #DDD; }
+
+@media print {
+  body #tribe-events-bar,
+  body #tribe-bar-form,
+  body #tribe-bar-views,
+  body .tribe-bar-filters,
+  body #tribe-events-footer,
+  body .tribe-events-ical {
+    display: none;
+    visibility: hidden;
+    margin: 0px; }
+  body #tribe-events-content h2.tribe-events-page-title {
+    font-size: 20px; }
+    body #tribe-events-content h2.tribe-events-page-title a {
+      font-size: 20px; } }
+/* *** end styling for tribe events... */
+* {
+  -moz-box-sizing: border-box; }
+
+/* Theme customization starts here */
+/*  header stuff */
+#masthead .left-links div.wide-nav-search {
+  float: right; }
+#masthead .left-links div.wide-nav-search > div {
+  display: block;
+  width: 100%;
+  float: right; }
+  #masthead .left-links div.wide-nav-search > div #searchform {
+    float: right; }
+  #masthead .left-links div.wide-nav-search > div img {
+    float: right; }
+
+header.stuck div.wide-nav-search img {
+  display: none; }
+
+/* ux banners (used as banners and singly */
+.ux_banner h1, .ux_banner h2, .ux_banner h3 {
+  text-shadow: 1px 2px #131313 !important; }
+
+/* page stuff */
+.page-wrapper {
+  padding-top: 0px; }
+
+.top-divider {
+  border: 0px; }
+
+.widget_recent_entries ul li {
+  padding-top: 15px; }
+
+#cff .cff-author .cff-page-name.cff-author-date {
+  color: #3b5998; }

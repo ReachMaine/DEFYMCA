@@ -1,0 +1,67 @@
+/*  
+	Theme Name: defy
+	Description: Flatsome child theme for DEFY
+	Author: LSpeight, Reach Maine Internet Marketing.
+	Author URI: http://www.reachmaine.com/
+	License: GNU General Public License
+	License URI: license.txt
+	Template: flatsome
+*/
+ 
+@import url("../flatsome/css/foundation.css");
+@import "partials/settings";
+@import "partials/print"; 
+@import "partials/tribe-events"; 
+//@import "partials/functions"; 
+* {
+	-moz-box-sizing: border-box;
+}
+/* Theme customization starts here */
+/*  header stuff */
+#masthead {
+	.left-links {
+		//background-color: red;
+		div.wide-nav-search {
+			float: right;
+		}
+		div.wide-nav-search > div {
+			display: block;
+			width: 100%;
+			float: right;
+			#searchform {
+				float: right;
+			}
+			img { // james russel wiggins image 
+				float: right;
+			}
+		}
+	}
+}
+header.stuck {
+	div.wide-nav-search img {
+		display: none;
+	}
+}
+
+/* ux banners (used as banners and singly */
+.ux_banner {
+	h1,  h2, h3{
+		// text-shadow: 1px 1px #8d8d8d;
+		text-shadow: 1px 2px #131313!important;
+	}
+}
+/* page stuff */
+.page-wrapper {
+	padding-top: 0px;
+}
+.top-divider {
+	border: 0px;
+}
+
+.widget_recent_entries ul li { // :not(:first-child) 
+	padding-top: 15px;
+}
+
+#cff .cff-author .cff-page-name.cff-author-date {
+	color: $facebook-blue;
+}

@@ -1,0 +1,69 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@media print {
+	body { // dont print url to menu items on print.
+		#masthead, #site-navigation, #menu-top-nav-and-footer-nav, #menu-footer {
+			a[href]:after {
+		 		content: ""; 
+		 	}
+		}
+		a[href]:after {
+		 		content: ""; 
+		 	}
+
+		#top-bar {
+			.left-text {
+				padding: 0px;
+				margin: 0px;
+			}
+		}
+		#top-bar .right-text.right.hide-for-small{
+			display: none;
+			visibility: hidden;
+			padding: 0px;
+			margin: 0px;
+			height: 0px
+		}
+		#masthead {
+			height:0px;
+			.header-container {
+				display: block;
+				height: 80px;
+				#logo {
+					padding-top: 0px;
+					padding-bottom: 0px;
+					vertical-align: top;
+					float:left;
+					display: block;
+					height: 80px;
+					a {
+						padding-top: 0px;
+						img {
+							height: 80px;
+						}
+					}
+				}
+			}
+			.mobile-menu {
+				display: none;
+				visibility: hidden;
+				margin: 0px;
+				padding: 0px;
+				height: 0px;
+			}
+		}
+		.sticky-wrapper {
+		}
+		
+	} // end body
+	.hide-for-print {
+		display: none;
+		visibility: hidden;
+		margin: 0px;
+		padding: 0px;
+		height: 0px;
+	}
+}
+
+

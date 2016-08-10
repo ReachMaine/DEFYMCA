@@ -25,11 +25,11 @@ line_comments = false
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 
 # Uncomment below For WordPress. SRC: http://css-tricks.com/compass-compiling-and-wordpress-themes/
-require 'fileutils'
-on_stylesheet_saved do |file|
-  if File.exists?(file) && File.basename(file) == "master.css"
-    puts "Moving #{file}"
-    FileUtils.mv(file, File.dirname(file) + "/../style.css")
- + File.basename(file)
-  end
-end
+# require 'fileutils'
+#on_stylesheet_saved do |file|
+#  if File.exists?(file) && File.basename(file) == "master.css"
+#    puts "Moving #{file}"
+#    FileUtils.mv(file, File.dirname(file) + "/../style.css")
+# + File.basename(file)
+#  end
+#end

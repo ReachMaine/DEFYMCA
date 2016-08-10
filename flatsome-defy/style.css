@@ -1,4 +1,3 @@
-@import url("../flatsome/css/foundation.css");
 /*  
 	Theme Name: defy
 	Description: Flatsome child theme for DEFY
@@ -8,6 +7,7 @@
 	License URI: license.txt
 	Template: flatsome
 */
+@import url("../flatsome/css/foundation.css");
 /*******************begin _settings.scss ************************/
 /* Colors ---------------------------------------------- */
 /* Typography ------------------------------------------ */
@@ -122,6 +122,11 @@ ul.header-nav li a {
   -moz-box-sizing: border-box; }
 
 /* Theme customization starts here */
+@font-face {
+  font-family: Cache;
+  font-style: normal;
+  font-weight: normal;
+  src: url("Cache.otf") format("opentype"); }
 /*  header stuff */
 #masthead .left-links div.wide-nav-search {
   float: right; }

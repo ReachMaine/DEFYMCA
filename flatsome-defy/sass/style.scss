@@ -68,3 +68,13 @@ header.stuck {
 #cff .cff-author .cff-page-name.cff-author-date {
 	color: $facebook-blue;
 }
+
+div.homepage-side-menu { //vertical menu on homepage
+	color: white;
+    background-color: teal;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    text-indent: 5%;
+    padding: 10px 0px;
+    font-size: 37px;
+}

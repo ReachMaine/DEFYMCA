@@ -153,3 +153,12 @@ header.stuck div.wide-nav-search img {
 
 #cff .cff-author .cff-page-name.cff-author-date {
   color: #3b5998; }
+
+div.homepage-side-menu {
+  color: white;
+  background-color: teal;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  text-indent: 5%;
+  padding: 10px 0px;
+  font-size: 37px; }

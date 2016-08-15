@@ -151,6 +151,12 @@ div.footer-nav li a {
 .ux_banner h1, .ux_banner h2, .ux_banner h3 {
   text-shadow: 1px 2px #131313 !important; }
 
+.homepage-slideshow .ux_banner .inner.bottom {
+  bottom: 0% !important; }
+.homepage-slideshow .ux_banner .inner {
+  left: 0% !important;
+  padding: 0% !important; }
+
 /* page stuff */
 .page-wrapper {
   padding-top: 0px; }

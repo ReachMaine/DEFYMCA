@@ -178,4 +178,12 @@ div.three-col-boxes {
   text-align: center; }
 
 div.three-col-boxes ul {
-  list-style: none; }
+  list-style: none;
+  color: #01a490;
+  font-weight: bold; }
+
+div.three-col-boxes a {
+  color: #01a490; }
+
+div.three-col-boxes a:hover {
+  color: #0089D0; }

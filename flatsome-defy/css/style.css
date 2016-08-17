@@ -143,6 +143,9 @@ h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.butto
 header.stuck div.wide-nav-search img {
   display: none; }
 
+.wide-nav.hide-for-small.dark-header.nav-center {
+  border-radius: 9px; }
+
 /* Footer Stuff */
 div.footer-nav li a {
   color: white; }
@@ -156,6 +159,21 @@ div.footer-nav li a {
 .homepage-slideshow .ux_banner .inner {
   left: 0% !important;
   padding: 0% !important; }
+
+/* new homepage side box */
+ul.display-posts-listing {
+  list-style: none;
+  margin-left: 0px; }
+  ul.display-posts-listing span.date {
+    font-size: .8em;
+    color: #bbb;
+    display: block; }
+  ul.display-posts-listing a.title {
+    color: white;
+    font-weight: bold; }
+  ul.display-posts-listing li.listing-item {
+    padding-bottom: 15px;
+    line-height: 1.1em; }
 
 /* page stuff */
 .page-wrapper {
@@ -186,7 +204,8 @@ div.three-col-boxes {
 div.three-col-boxes ul {
   list-style: none;
   color: #01a490;
-  font-weight: bold; }
+  font-weight: bold;
+  margin-left: 0px; }
 
 div.three-col-boxes a {
   color: #01a490; }

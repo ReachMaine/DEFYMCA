@@ -55,6 +55,10 @@ header.stuck {
 	}
 }
 
+.wide-nav.hide-for-small.dark-header.nav-center {
+	border-radius: 9px;
+}
+
 /* Footer Stuff */
 
 div.footer-nav li a{
@@ -77,6 +81,29 @@ div.footer-nav li a{
 		left: 0% !important;
 		padding: 0% !important;
 	}
+}
+
+/* new homepage side box */
+ul.display-posts-listing {
+	list-style: none;
+	margin-left: 0px;
+	span.date {
+		font-size: .8em;
+		color: #bbb;
+		display: block;
+	}
+	a.title {
+		color: white;
+		font-weight: bold;
+	}
+	li.listing-item {
+		padding-bottom: 15px;
+		line-height: 1.1em;
+	}
+}
+
+span.date {
+
 }
 
 /* page stuff */
@@ -114,6 +141,7 @@ div.three-col-boxes ul {
 	list-style: none;
 	color: #01a490;
 	font-weight: bold;
+	margin-left: 0px;
 }
 div.three-col-boxes a {
 	color: #01a490;

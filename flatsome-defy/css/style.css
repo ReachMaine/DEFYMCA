@@ -160,6 +160,11 @@ div.footer-nav li a {
   left: 0% !important;
   padding: 0% !important; }
 
+.ux_banner h3 {
+  margin: 0px; }
+.ux_banner .button {
+  margin: 10px 5px 0px; }
+
 /* new homepage side box */
 ul.display-posts-listing {
   list-style: none;

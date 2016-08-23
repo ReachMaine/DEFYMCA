@@ -140,7 +140,6 @@ div.homepage-side-menu { // vertical menu on homepage
     padding: 21px 0px;
     font-size: 44px;
     font-family: Cache;
-    text-align: center;
 }
 
 div.three-col-boxes {
@@ -163,4 +162,8 @@ div.three-col-boxes a:hover {
 
 ul.giving-list {
 	font-size: .9em;
+}
+
+.recent-news ul {
+	text-align: center;
 }

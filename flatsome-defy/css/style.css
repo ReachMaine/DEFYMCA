@@ -201,8 +201,7 @@ div.homepage-side-menu {
   text-indent: 9%;
   padding: 21px 0px;
   font-size: 44px;
-  font-family: Cache;
-  text-align: center; }
+  font-family: Cache; }
 
 div.three-col-boxes {
   text-align: center; }
@@ -221,3 +220,6 @@ div.three-col-boxes a:hover {
 
 ul.giving-list {
   font-size: .9em; }
+
+.recent-news ul {
+  text-align: center; }

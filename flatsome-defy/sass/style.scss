@@ -1,4 +1,4 @@
-/*  
+/*
 	Theme Name: defy
 	Description: Flatsome child theme for DEFY
 	Author: LSpeight, Reach Maine Internet Marketing.
@@ -7,12 +7,12 @@
 	License URI: license.txt
 	Template: flatsome
 */
- 
+
 @import url("../flatsome/css/foundation.css");
 @import "partials/settings";
-@import "partials/print"; 
-@import "partials/tribe-events"; 
-//@import "partials/functions"; 
+@import "partials/print";
+@import "partials/tribe-events";
+//@import "partials/functions";
 * {
 	-moz-box-sizing: border-box;
 }
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.butto
 			#searchform {
 				float: right;
 			}
-			img { // james russel wiggins image 
+			img { // james russel wiggins image
 				float: right;
 			}
 		}
@@ -123,7 +123,7 @@ span.date {
 	border: 0px;
 }
 
-.widget_recent_entries ul li { // :not(:first-child) 
+.widget_recent_entries ul li { // :not(:first-child)
 	padding-top: 15px;
 }
 
@@ -167,3 +167,5 @@ ul.giving-list {
 .recent-news ul {
 	text-align: center;
 }
+
+@import "partials/media";

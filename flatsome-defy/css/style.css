@@ -1,4 +1,4 @@
-/*  
+/*
 	Theme Name: defy
 	Description: Flatsome child theme for DEFY
 	Author: LSpeight, Reach Maine Internet Marketing.
@@ -223,3 +223,7 @@ ul.giving-list {
 
 .recent-news ul {
   text-align: center; }
+
+@media only screen and (max-width: 480px) {
+  img.defy-100wide-mobile {
+    width: 100%; } }

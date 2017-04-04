@@ -62,6 +62,14 @@ header.stuck {
 .defy-gym-field { //drop field and gym directions below others in menu flyout
 	clear: both;
 	font-size: 1.1em;
+	color: black;
+	a {
+		color:  black !important;
+	}
+}
+
+.defy-hide {
+	display: none !important;
 }
 
 /* Footer Stuff */

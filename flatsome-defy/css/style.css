@@ -148,7 +148,13 @@ header.stuck div.wide-nav-search img {
 
 .defy-gym-field {
   clear: both;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+  color: black; }
+  .defy-gym-field a {
+    color: black !important; }
+
+.defy-hide {
+  display: none !important; }
 
 /* Footer Stuff */
 div.footer-nav li a {

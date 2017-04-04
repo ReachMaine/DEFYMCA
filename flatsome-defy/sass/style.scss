@@ -59,6 +59,11 @@ header.stuck {
 	border-radius: 9px;
 }
 
+.defy-gym-field { //drop field and gym directions below others in menu flyout
+	clear: both;
+	font-size: 1.1em;
+}
+
 /* Footer Stuff */
 
 div.footer-nav li a{

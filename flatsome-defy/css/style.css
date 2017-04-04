@@ -146,6 +146,10 @@ header.stuck div.wide-nav-search img {
 .wide-nav.hide-for-small.dark-header.nav-center {
   border-radius: 9px; }
 
+.defy-gym-field {
+  clear: both;
+  font-size: 1.1em; }
+
 /* Footer Stuff */
 div.footer-nav li a {
   color: white; }

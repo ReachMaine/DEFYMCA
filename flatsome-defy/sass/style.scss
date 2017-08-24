@@ -181,4 +181,46 @@ ul.giving-list {
 	text-align: center;
 }
 
+//Locations
+.defy-locations {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	padding: 0px 5px;
+	max-width: 960px;
+	margin: auto;
+	.defy-single-location {
+		padding: 0px 10px;
+		width: 300px;
+		p {
+			margin-top: .2em;
+		}
+		.defy-location-name {
+			font-size: 1.4em;
+			margin-bottom: 0em;
+		}
+		.defy-location-address {
+			font-weight: normal;
+			margin: 0em;
+			font-size: 1.1em;
+		}
+		.defy-location-phone {
+			margin-bottom: 0em;
+			font-size: 1.1em;
+		}
+		.defy-hours-title {
+			font-weight: bold;
+			font-size: 1.2em;
+		}
+		p {
+			line-height: .3em;
+			font-size: 1em;
+		}
+		span {
+			line-height: 1.2em
+		}
+	}
+}
+
 @import "partials/media";

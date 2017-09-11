@@ -243,7 +243,7 @@ ul.giving-list {
   max-width: 960px;
   margin: auto; }
   .defy-locations .defy-single-location {
-    padding: 8px 10px;
+    padding: 0px 0px 35px;
     width: 300px; }
     .defy-locations .defy-single-location p {
       margin-top: .2em; }

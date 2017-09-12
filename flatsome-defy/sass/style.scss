@@ -187,7 +187,6 @@ ul.giving-list {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	text-align: center;
-	padding: 0px 5px;
 	max-width: 960px;
 	margin: auto;
 	.defy-single-location {
@@ -197,18 +196,19 @@ ul.giving-list {
 			margin-top: .2em;
 		}
 		.defy-location-name {
-			font-size: 1.1em;
+			font-size: 1em;
 			margin-bottom: 0em;
 			color: #d8d8d8;
+			text-transform: uppercase;
 		}
 		.defy-location-address {
 			font-weight: normal;
 			margin: 0em;
-			font-size: 1.1em;
+			font-size: 1em;
 		}
 		.defy-location-phone {
 			margin-bottom: 0em;
-			font-size: 1.1em;
+			font-size: .8em;
 		}
 		.defy-hours-title {
 			font-weight: bold;

@@ -210,7 +210,8 @@ ul.giving-list {
 		.defy-location-address {
 			font-weight: normal;
 			margin: 0em;
-			font-size: 1em;
+			font-size: .8em;
+			line-height: 2em;
 			a {
 				margin-left: 10px; //facebook link.
 			}
@@ -218,6 +219,7 @@ ul.giving-list {
 		.defy-location-phone {
 			margin-bottom: 0em;
 			font-size: .8em;
+			line-height: 1em;
 			a:hover {
 				color: $ymca-blue;
 			}
@@ -235,5 +237,11 @@ ul.giving-list {
 		}
 	}
 }
+// instagram widget
+ul.instagram-pics {
+	li {
+		width: 50%;
+	}
 
+}
 @import "partials/media";

@@ -153,6 +153,9 @@ header.stuck div.wide-nav-search img {
   .defy-gym-field a {
     color: black !important; }
 
+#contenttop-widetarea {
+  padding-top: 30px; }
+
 .defy-hide {
   display: none !important; }
 

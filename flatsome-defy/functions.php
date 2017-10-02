@@ -25,11 +25,11 @@
 	/* add favicons for admin */
 	add_action('login_head', 'add_favicon');
 	add_action('admin_head', 'add_favicon');
-	
+
 	function add_favicon() {
 		$favicon_url = get_stylesheet_directory_uri() . '/images/admin-favicon.ico';
 		echo '<link rel="shortcut icon" href="' . $favicon_url . '" />';
-	} 
+	}
 	/***** end admin favicon ******/
 	/* add shortcode support to contact form 7 content */
 	add_filter( 'wpcf7_form_elements', 'mycustom_wpcf7_form_elements' );
@@ -42,7 +42,7 @@ return $form;
 
 /* add widget area for venue sidebar */
 if ( function_exists('register_sidebar') ){
-	// venue sidebar 
+	// venue sidebar
 	 register_sidebar(array(
 		'name' => 'Venue Sidebar',
 		'id' => 'venue-sidebar',
@@ -51,7 +51,17 @@ if ( function_exists('register_sidebar') ){
 		'after_widget'  => '</div>',
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3><div class="tx-div small"></div>',
-	)); 
+	));
+	// content top widget area
+	 register_sidebar(array(
+		'name' => 'Content top',
+		'id' => 'contenttop',
+		'description' => 'Widget area for above the content on apropiate page template',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3></div>',
+	));
 }
 /* turn off commment to attachments */
 	function filter_media_comment_status( $open, $post_id ) {

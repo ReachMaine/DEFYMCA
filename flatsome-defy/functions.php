@@ -52,16 +52,7 @@ if ( function_exists('register_sidebar') ){
 		'before_title'  => '<h3 class="widget-title">',
 		'after_title'   => '</h3><div class="tx-div small"></div>',
 	));
-	// content top widget area
-	 register_sidebar(array(
-		'name' => 'Content top',
-		'id' => 'contenttop',
-		'description' => 'Widget area for above the content on apropiate page template',
-		'before_widget' => '',
-		'after_widget'  => '',
-		'before_title'  => '<h3 class="widget-title">',
-		'after_title'   => '</h3>',
-	));
+
 }
 /* turn off commment to attachments */
 	function filter_media_comment_status( $open, $post_id ) {

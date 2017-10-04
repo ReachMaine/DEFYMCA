@@ -104,6 +104,7 @@ div.footer-nav li a{
 	}
 	.button {
 		margin: 10px 5px 0px;
+		border-radius: 4px;
 	}
 }
 
@@ -125,7 +126,10 @@ ul.display-posts-listing {
 		line-height: 1.1em;
 	}
 }
+.homepage-slideshow .recent-news {
+	border-radius: 8px;
 
+}
 span.date {
 
 }
@@ -239,11 +243,21 @@ ul.giving-list {
 		}
 	}
 }
-// instagram widget
-ul.instagram-pics {
-	li {
-		width: 50%;
+// instagram widget in footer.
+.null-instagram-feed {
+	background-color: white;
+	border-radius: 5px;
+	.widget-title {
+		color: #555;
 	}
+	ul.instagram-pics {
+		li {
+			width: 50%;
+		}
 
+	}
+	p a {
+		color: $defy-orange;
+	}
 }
 @import "partials/media";

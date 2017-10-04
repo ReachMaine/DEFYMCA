@@ -24,6 +24,18 @@ p, ul, ol {
 ul.header-nav li a {
   font-weight: normal; }
 
+defy-br8 {
+  border-radius: 8px; }
+
+button.primary {
+  border-radius: 4px; }
+
+.defy-borderbox .column-inner {
+  border: 2px solid #f47920;
+  border-radius: 8px; }
+  .defy-borderbox .column-inner h2 {
+    padding-left: 10px; }
+
 /*******************end _settings.scss ************************/
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
@@ -176,7 +188,8 @@ div.footer-nav li a {
 .ux_banner h3 {
   margin: 0px; }
 .ux_banner .button {
-  margin: 10px 5px 0px; }
+  margin: 10px 5px 0px;
+  border-radius: 4px; }
 
 /* new homepage side box */
 ul.display-posts-listing {
@@ -192,6 +205,9 @@ ul.display-posts-listing {
   ul.display-posts-listing li.listing-item {
     padding-bottom: 15px;
     line-height: 1.1em; }
+
+.homepage-slideshow .recent-news {
+  border-radius: 8px; }
 
 /* page stuff */
 .page-wrapper {
@@ -279,8 +295,15 @@ ul.giving-list {
     .defy-locations .defy-single-location span {
       line-height: 1.2em; }
 
-ul.instagram-pics li {
-  width: 50%; }
+.null-instagram-feed {
+  background-color: white;
+  border-radius: 5px; }
+  .null-instagram-feed .widget-title {
+    color: #555; }
+  .null-instagram-feed ul.instagram-pics li {
+    width: 50%; }
+  .null-instagram-feed p a {
+    color: #f47920; }
 
 @media only screen and (max-width: 480px) {
   img.defy-100wide-mobile {

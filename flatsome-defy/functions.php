@@ -57,10 +57,10 @@ if ( function_exists('register_sidebar') ){
 		'name' => 'Content top',
 		'id' => 'contenttop',
 		'description' => 'Widget area for above the content on apropiate page template',
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</div>',
+		'before_widget' => '',
+		'after_widget'  => '',
 		'before_title'  => '<h3 class="widget-title">',
-		'after_title'   => '</h3></div>',
+		'after_title'   => '</h3>',
 	));
 }
 /* turn off commment to attachments */

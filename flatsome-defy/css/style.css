@@ -27,7 +27,7 @@ ul.header-nav li a {
 defy-br8 {
   border-radius: 8px; }
 
-button.primary {
+button.primary, .button.primary {
   border-radius: 4px; }
 
 .defy-borderbox .column-inner {
@@ -166,7 +166,7 @@ header.stuck div.wide-nav-search img {
     color: black !important; }
 
 #contenttop-widetarea {
-  padding-top: 30px; }
+  margin-top: -30px; }
 
 .defy-hide {
   display: none !important; }
@@ -210,9 +210,6 @@ ul.display-posts-listing {
   border-radius: 8px; }
 
 /* page stuff */
-.page-wrapper {
-  padding-top: 0px; }
-
 .top-divider {
   border: 0px; }
 

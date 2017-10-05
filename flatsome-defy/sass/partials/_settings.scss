@@ -18,6 +18,7 @@ $navcollapsehover:#e87a56;
 $facebook-blue: #3b5998;
 $ymca-teal: #01a490;
 $ymca-blue: #0089D0;
+$defy-orange:  #f47920;
 $navcolStartColor: #ffd3cc; // orig.  #f2f2f2;
 $navcolEndColor:#e87a56 ;// orig #e5e5e5;
 /* Typography ------------------------------------------ */
@@ -34,5 +35,18 @@ p, ul, ol {
 }
 ul.header-nav li a  {
 	font-weight: normal;
+}
+defy-br8 {
+	border-radius: 8px;
+}
+button.primary {
+	border-radius: 4px;
+}
+.defy-borderbox .column-inner {
+	border: 2px solid $defy-orange;
+	border-radius: 8px;
+	h2 {
+		padding-left: 10px;
+	}
 }
 /*******************end _settings.scss ************************/

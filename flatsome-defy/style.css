@@ -1,4 +1,4 @@
-/*  
+/*
 	Theme Name: defy
 	Description: Flatsome child theme for DEFY
 	Author: LSpeight, Reach Maine Internet Marketing.
@@ -23,6 +23,18 @@ p, ul, ol {
 
 ul.header-nav li a {
   font-weight: normal; }
+
+defy-br8 {
+  border-radius: 8px; }
+
+#submit.large, button.large, .button.large, input[type="submit"].large {
+  border-radius: 4px; }
+
+.defy-borderbox .column-inner {
+  border: 2px solid #f47920;
+  border-radius: 8px; }
+  .defy-borderbox .column-inner h2 {
+    padding-left: 10px; }
 
 /*******************end _settings.scss ************************/
 /* Welcome to Compass. Use this file to define print styles.
@@ -122,6 +134,12 @@ ul.header-nav li a {
   -moz-box-sizing: border-box; }
 
 /* Theme customization starts here */
+@font-face {
+  font-family: Cache;
+  src: url("Cache.otf"); }
+h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.button {
+  font-family: Cache; }
+
 /*  header stuff */
 #masthead .left-links div.wide-nav-search {
   float: right; }
@@ -137,9 +155,59 @@ ul.header-nav li a {
 header.stuck div.wide-nav-search img {
   display: none; }
 
+.wide-nav.hide-for-small.dark-header.nav-center {
+  border-radius: 9px; }
+
+.defy-gym-field {
+  clear: both;
+  font-size: 1.1em;
+  color: black; }
+  .defy-gym-field a {
+    color: black !important; }
+
+#contenttop-widetarea {
+  padding-top: 30px; }
+
+.defy-hide {
+  display: none !important; }
+
+/* Footer Stuff */
+div.footer-nav li a {
+  color: white; }
+
 /* ux banners (used as banners and singly */
 .ux_banner h1, .ux_banner h2, .ux_banner h3 {
   text-shadow: 1px 2px #131313 !important; }
+
+.homepage-slideshow .ux_banner .inner.bottom {
+  bottom: 0% !important; }
+.homepage-slideshow .ux_banner .inner {
+  left: 0% !important;
+  padding: 0% !important; }
+
+.ux_banner h3 {
+  margin: 0px; }
+.ux_banner .button {
+  margin: 10px 5px 0px;
+  border-radius: 4px; }
+
+/* new homepage side box */
+ul.display-posts-listing {
+  list-style: none;
+  margin-left: 0px; }
+  ul.display-posts-listing span.date {
+    font-size: .8em;
+    color: #bbb;
+    display: block; }
+  ul.display-posts-listing a.title {
+    color: white;
+    font-weight: bold; }
+  ul.display-posts-listing li.listing-item {
+    padding-bottom: 15px;
+    line-height: 1.1em; }
+
+.homepage-slideshow .recent-news {
+  border-radius: 8px; }
 
 /* page stuff */
 .page-wrapper {
@@ -153,3 +221,90 @@ header.stuck div.wide-nav-search img {
 
 #cff .cff-author .cff-page-name.cff-author-date {
   color: #3b5998; }
+
+div.homepage-side-menu {
+  color: white;
+  background-color: teal;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  text-indent: 9%;
+  padding: 21px 0px;
+  font-size: 44px;
+  font-family: Cache; }
+
+div.three-col-boxes {
+  text-align: center; }
+
+div.three-col-boxes ul {
+  list-style: none;
+  color: #01a490;
+  font-weight: bold;
+  margin-left: 0px; }
+
+div.three-col-boxes a {
+  color: #01a490; }
+
+div.three-col-boxes a:hover {
+  color: #0089D0; }
+
+ul.giving-list {
+  font-size: .9em; }
+
+.recent-news ul {
+  text-align: center; }
+
+.defy-locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 960px;
+  margin: auto; }
+  .defy-locations .defy-single-location {
+    padding: 0px 0px 35px;
+    width: 300px;
+    text-align: left; }
+    .defy-locations .defy-single-location p {
+      margin-top: .2em; }
+    .defy-locations .defy-single-location .defy-location-name {
+      font-size: 1em;
+      margin-bottom: 0em;
+      color: #d8d8d8;
+      text-transform: uppercase;
+      font-weight: normal; }
+      .defy-locations .defy-single-location .defy-location-name a:hover {
+        color: #01a490; }
+    .defy-locations .defy-single-location .defy-location-address {
+      font-weight: normal;
+      margin: 0em;
+      font-size: .8em;
+      line-height: 2em; }
+      .defy-locations .defy-single-location .defy-location-address a {
+        margin-left: 10px; }
+    .defy-locations .defy-single-location .defy-location-phone {
+      margin-bottom: 0em;
+      font-size: .8em;
+      line-height: 1em; }
+      .defy-locations .defy-single-location .defy-location-phone a:hover {
+        color: #0089D0; }
+    .defy-locations .defy-single-location .defy-hours-title {
+      font-weight: bold;
+      font-size: 1.2em; }
+    .defy-locations .defy-single-location p {
+      line-height: .3em;
+      font-size: 1em; }
+    .defy-locations .defy-single-location span {
+      line-height: 1.2em; }
+
+.null-instagram-feed {
+  background-color: white;
+  border-radius: 5px; }
+  .null-instagram-feed .widget-title {
+    color: #555; }
+  .null-instagram-feed ul.instagram-pics li {
+    width: 50%; }
+  .null-instagram-feed p a {
+    color: #f47920; }
+
+@media only screen and (max-width: 480px) {
+  img.defy-100wide-mobile {
+    width: 100%; } }

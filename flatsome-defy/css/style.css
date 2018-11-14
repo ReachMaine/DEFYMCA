@@ -36,6 +36,9 @@ button.primary, .button.primary {
   .defy-borderbox .column-inner h2 {
     padding-left: 10px; }
 
+img {
+  border-radius: 8px; }
+
 /*******************end _settings.scss ************************/
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:

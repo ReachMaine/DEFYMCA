@@ -4,9 +4,9 @@
  *
  * @package flatsome
  */
- 
+
 /* mods
- *  5Jan15 - zig use php date(Y)  for copyright in footer 
+ *  5Jan15 - zig use php date(Y)  for copyright in footer
  */
 
 global $flatsome_opt;
@@ -15,7 +15,7 @@ global $flatsome_opt;
 </div><!-- #main-content -->
 
 
-<footer class="footer-wrapper" role="contentinfo">	
+<footer class="footer-wrapper" role="contentinfo">
 <?php if(isset($flatsome_opt['html_before_footer'])){
 	// BEFORE FOOTER HTML BLOCK
 	echo do_shortcode($flatsome_opt['html_before_footer']);
@@ -26,7 +26,7 @@ global $flatsome_opt;
 <?php if ( is_active_sidebar( 'sidebar-footer-1' ) ) : ?>
 <div class="footer footer-1 <?php echo $flatsome_opt['footer_1_color']; ?>"  style="background-color:<?php echo $flatsome_opt['footer_1_bg_color']; ?>">
 	<div class="row">
-   		<?php dynamic_sidebar('sidebar-footer-1'); ?>        
+   		<?php dynamic_sidebar('sidebar-footer-1'); ?>
 	</div><!-- end row -->
 </div><!-- end footer 1 -->
 <?php endif; ?>
@@ -37,7 +37,7 @@ global $flatsome_opt;
 <div class="footer footer-2 <?php echo $flatsome_opt['footer_2_color']; ?>" style="background-color:<?php echo $flatsome_opt['footer_2_bg_color']; ?>">
 	<div class="row">
 
-   		<?php dynamic_sidebar('sidebar-footer-2'); ?>        
+   		<?php dynamic_sidebar('sidebar-footer-2'); ?>
 	</div><!-- end row -->
 </div><!-- end footer 2 -->
 <?php endif; ?>
@@ -54,14 +54,14 @@ global $flatsome_opt;
 	<div class="large-12 columns">
 		<div class="left">
 			 <?php if ( has_nav_menu( 'footer' ) ) : ?>
-				<?php  
+				<?php
 						wp_nav_menu(array(
 							'theme_location' => 'footer',
 							'menu_class' => 'footer-nav',
 							'depth' => 1,
 							'fallback_cb' => false,
 						));
-				?>						
+				?>
 			<?php endif; ?>
 		<div class="copyright-footer"><?php if(isset($flatsome_opt['footer_left_text'])) {echo "Copyright ".date('Y')." © ".$flatsome_opt['footer_left_text'];} else{ echo 'Define left footer text / navigation in Theme Option Panel';} ?></div>
 		</div><!-- .left -->
@@ -73,9 +73,9 @@ global $flatsome_opt;
 </div><!-- .absolute-footer -->
 </footer><!-- .footer-wrapper -->
 </div><!-- #wrapper -->
-
+<?php /* zig xout 14Nov18
 <!-- back to top -->
-<a href="#top" id="top-link"><span class="icon-angle-up"></span></a>
+<a href="#top" id="top-link"><span class="icon-angle-up"></span></a> */ ?>
 <div class="scroll-to-bullets"></div>
 
 <?php if(isset($flatsome_opt['html_scripts_footer'])){

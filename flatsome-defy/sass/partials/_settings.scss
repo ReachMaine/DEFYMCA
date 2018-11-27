@@ -45,8 +45,11 @@ button.primary, .button.primary {
 .defy-borderbox .column-inner {
 	border: 2px solid $ymca-teal; // $defy-orange;
 	border-radius: 8px;
+	padding-left: 10px;
+	padding-top: 10px;
 	h2 {
-		padding-left: 10px;
+		//padding-left: 10px;
+		margin-top: 0px;
 	}
 }
 img {

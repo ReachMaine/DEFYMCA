@@ -32,9 +32,11 @@ button.primary, .button.primary {
 
 .defy-borderbox .column-inner {
   border: 2px solid #01a490;
-  border-radius: 8px; }
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-top: 10px; }
   .defy-borderbox .column-inner h2 {
-    padding-left: 10px; }
+    margin-top: 0px; }
 
 img {
   border-radius: 8px; }

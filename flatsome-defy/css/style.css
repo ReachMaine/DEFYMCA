@@ -24,8 +24,14 @@ p, ul, ol {
 ul.header-nav li a {
   font-weight: normal; }
 
-defy-br8 {
+.defy-br8 {
   border-radius: 8px; }
+
+.defy-rounded-img {
+  border-radius: 8px; }
+
+.defy-rounded-bigimg {
+  border-radius: 12px; }
 
 button.primary, .button.primary {
   border-radius: 4px; }

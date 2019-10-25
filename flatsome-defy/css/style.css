@@ -141,6 +141,17 @@ img {
     body #tribe-events-content h2.tribe-events-page-title a {
       font-size: 20px; } }
 /* *** end styling for tribe events... */
+/* styling for blogs */
+article .entry-image img {
+  width: auto; }
+
+.blog-list-style article {
+  margin-bottom: 0px; }
+  .blog-list-style article .entry-image img {
+    max-height: 240px; }
+  .blog-list-style article h3.entry-title {
+    margin-bottom: 0px; }
+
 * {
   -moz-box-sizing: border-box; }
 

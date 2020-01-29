@@ -48,7 +48,8 @@ ul.header-nav li a  {
 button.primary, .button.primary {
 	border-radius: 4px;
 }
-.defy-borderbox .column-inner {
+.defy-borderbox .column-inner,
+.defy-borderbox .col-inner {
 	border: 2px solid $ymca-teal; // $defy-orange;
 	border-radius: 8px;
 	padding-left: 10px;

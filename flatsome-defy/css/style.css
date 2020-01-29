@@ -7,7 +7,6 @@
 	License URI: license.txt
 	Template: flatsome
 */
-@import url("../flatsome/css/foundation.css");
 /*******************begin _settings.scss ************************/
 /* Colors ---------------------------------------------- */
 /* Typography ------------------------------------------ */
@@ -36,12 +35,14 @@ ul.header-nav li a {
 button.primary, .button.primary {
   border-radius: 4px; }
 
-.defy-borderbox .column-inner {
+.defy-borderbox .column-inner,
+.defy-borderbox .col-inner {
   border: 2px solid #01a490;
   border-radius: 8px;
   padding-left: 10px;
   padding-top: 10px; }
-  .defy-borderbox .column-inner h2 {
+  .defy-borderbox .column-inner h2,
+  .defy-borderbox .col-inner h2 {
     margin-top: 0px; }
 
 img {
@@ -160,9 +161,14 @@ article .entry-image img {
   font-family: Cache;
   src: url("Cache.otf"); }
 h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.button {
-  font-family: Cache; }
+  font-family: Cache !important; }
 
 /*  header stuff */
+#top-bar .nav-left .html_topbar_left {
+  font-weight: bold; }
+#top-bar ul.top-bar-nav .nav-top-link {
+  font-weight: bold; }
+
 #masthead .left-links div.wide-nav-search {
   float: right; }
 #masthead .left-links div.wide-nav-search > div {
@@ -173,6 +179,11 @@ h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.butto
     float: right; }
   #masthead .left-links div.wide-nav-search > div img {
     float: right; }
+
+#wide-nav ul.nav > li.menu-item a {
+  text-transform: uppercase; }
+#wide-nav ul.nav > li.menu-item a.nav-top-link {
+  font-weight: bold; }
 
 header.stuck div.wide-nav-search img {
   display: none; }
@@ -216,7 +227,8 @@ div.footer-nav li a {
 /* new homepage side box */
 ul.display-posts-listing {
   list-style: none;
-  margin-left: 0px; }
+  margin-left: 0px;
+  margin-bottom: 0px; }
   ul.display-posts-listing span.date {
     font-size: .8em;
     color: #bbb;
@@ -225,6 +237,7 @@ ul.display-posts-listing {
     color: white;
     font-weight: bold; }
   ul.display-posts-listing li.listing-item {
+    margin-left: 0px;
     padding-bottom: 15px;
     line-height: 1.1em; }
 
@@ -241,7 +254,7 @@ ul.display-posts-listing {
 #cff .cff-author .cff-page-name.cff-author-date {
   color: #3b5998; }
 
-div.homepage-side-menu {
+.homepage-side-menu {
   color: white;
   background-color: teal;
   margin-bottom: 15px;
@@ -249,7 +262,8 @@ div.homepage-side-menu {
   text-indent: 9%;
   padding: 21px 0px;
   font-size: 44px;
-  font-family: Cache; }
+  font-family: Cache;
+  line-height: 1em; }
 
 div.three-col-boxes {
   text-align: center; }

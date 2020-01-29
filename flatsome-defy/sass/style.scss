@@ -8,7 +8,7 @@
 	Template: flatsome
 */
 
-@import url("../flatsome/css/foundation.css");
+//@import url("../flatsome/css/foundation.css");
 @import "partials/settings";
 @import "partials/print";
 @import "partials/tribe-events";
@@ -27,10 +27,22 @@
 }
 
 h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.button {
-	font-family: Cache;
+	font-family: Cache!important;
 }
 
 /*  header stuff */
+#top-bar {
+	.nav-left {
+		.html_topbar_left {
+			font-weight: bold;
+		}
+	}
+	ul.top-bar-nav {
+		.nav-top-link {
+			font-weight: bold;
+		}
+	}
+}
 #masthead {
 	.left-links {
 		//background-color: red;
@@ -50,6 +62,20 @@ h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.butto
 		}
 	}
 }
+// main menu
+#wide-nav {
+	ul.nav {
+		>li.menu-item {
+			a  { // all links...
+				text-transform: uppercase;
+			}
+			a.nav-top-link {
+				font-weight: bold;
+			}
+
+		}
+	}
+}
 header.stuck {
 	div.wide-nav-search img {
 		display: none;
@@ -59,6 +85,7 @@ header.stuck {
 .wide-nav.hide-for-small.dark-header.nav-center {
 	border-radius: 9px;
 }
+
 
 .defy-gym-field { //drop field and gym directions below others in menu flyout
 	clear: both;
@@ -112,7 +139,8 @@ div.footer-nav li a{
 /* new homepage side box */
 ul.display-posts-listing {
 	list-style: none;
-	margin-left: 0px;
+	margin-left: 0px; // old flatsome
+	margin-bottom: 0px; // new
 	span.date {
 		font-size: .8em;
 		color: #bbb;
@@ -123,6 +151,7 @@ ul.display-posts-listing {
 		font-weight: bold;
 	}
 	li.listing-item {
+		margin-left: 0px;  // new flatsome
 		padding-bottom: 15px;
 		line-height: 1.1em;
 	}
@@ -151,7 +180,7 @@ span.date {
 	color: $facebook-blue;
 }
 
-div.homepage-side-menu { // vertical menu on homepage
+.homepage-side-menu { // vertical menu on homepage
 	color: white;
     background-color: teal;
     margin-bottom: 15px;
@@ -160,6 +189,7 @@ div.homepage-side-menu { // vertical menu on homepage
     padding: 21px 0px;
     font-size: 44px;
     font-family: Cache;
+		line-height: 1em;
 }
 
 div.three-col-boxes {

@@ -62,11 +62,11 @@ button.primary, .button.primary {
 img {
 	border-radius: 8px;
 }
-
-.defy-tab-wide {
+// tabs...
+.tabbed-content {
+	border-top: 2px solid #eeeeee;
 	ul li.tab {
-		min-width: 50px;
+		margin-right: 20px;
 	}
-
 }
 /*******************end _settings.scss ************************/

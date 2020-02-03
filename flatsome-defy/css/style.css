@@ -48,8 +48,10 @@ button.primary, .button.primary {
 img {
   border-radius: 8px; }
 
-.defy-tab-wide ul li.tab {
-  min-width: 50px; }
+.tabbed-content {
+  border-top: 2px solid #eeeeee; }
+  .tabbed-content ul li.tab {
+    margin-right: 20px; }
 
 /*******************end _settings.scss ************************/
 /* Welcome to Compass. Use this file to define print styles.

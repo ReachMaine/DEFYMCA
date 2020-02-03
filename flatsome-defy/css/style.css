@@ -48,6 +48,9 @@ button.primary, .button.primary {
 img {
   border-radius: 8px; }
 
+.defy-tab-wide ul li.tab {
+  min-width: 50px; }
+
 /*******************end _settings.scss ************************/
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
@@ -285,6 +288,9 @@ ul.giving-list {
 
 .recent-news ul {
   text-align: center; }
+
+#secondary .widget_nav_menu ul.menu li a {
+  text-transform: uppercase; }
 
 .defy-locations {
   display: flex;

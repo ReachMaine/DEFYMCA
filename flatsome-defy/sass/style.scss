@@ -217,6 +217,16 @@ ul.giving-list {
 .recent-news ul {
 	text-align: center;
 }
+// sidebar
+#secondary {
+	.widget_nav_menu {
+		ul.menu {
+			li a {
+				text-transform: uppercase;
+			}
+		}
+	}
+}
 
 //Locations
 .defy-locations {

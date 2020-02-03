@@ -62,4 +62,11 @@ button.primary, .button.primary {
 img {
 	border-radius: 8px;
 }
+
+.defy-tab-wide {
+	ul li.tab {
+		min-width: 50px;
+	}
+
+}
 /*******************end _settings.scss ************************/

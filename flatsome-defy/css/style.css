@@ -158,6 +158,14 @@ article .entry-image img {
   .blog-list-style article h3.entry-title {
     margin-bottom: 0px; }
 
+/* styling for our team plugin */
+.widget_woothemes_our_team .team-member figure {
+  margin-bottom: 0px;
+  text-align: center; }
+.widget_woothemes_our_team .team-member h3.member, .widget_woothemes_our_team .team-member p.role {
+  text-align: center;
+  margin-bottom: 0px; }
+
 * {
   -moz-box-sizing: border-box; }
 
@@ -171,6 +179,10 @@ h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.butto
 /*  header stuff */
 #top-bar .nav-left .html_topbar_left {
   font-weight: bold; }
+#top-bar ul.top-bar-nav li.menu-item a.nav-top-link {
+  color: white; }
+#top-bar ul.top-bar-nav li.menu-item a.nav-top-link:hover {
+  color: rgba(255, 255, 255, 0.8); }
 #top-bar ul.top-bar-nav .nav-top-link {
   font-weight: bold; }
 

@@ -1,0 +1,18 @@
+/* styling for our team plugin */
+// our team plugin/ custom post type
+.widget_woothemes_our_team {
+	.team-member {
+		figure {
+			margin-bottom: 0px;
+			text-align: center;
+		}
+		h3.member, p.role {
+			text-align: center;
+			margin-bottom: 0px;
+		}
+	}
+
+	.team-member:after {
+	}
+
+}

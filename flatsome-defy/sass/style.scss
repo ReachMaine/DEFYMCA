@@ -13,6 +13,7 @@
 @import "partials/print";
 @import "partials/tribe-events";
 @import "partials/blog";
+@import "partials/our_team";
 //@import "partials/functions";
 * {
 	-moz-box-sizing: border-box;
@@ -37,7 +38,15 @@ h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.butto
 			font-weight: bold;
 		}
 	}
-	ul.top-bar-nav {
+	ul.top-bar-nav { // ul
+		li.menu-item {
+			a.nav-top-link {
+				color: white;
+			}
+			a.nav-top-link:hover {
+				color: rgba(255, 255, 255, 0.8);
+			}
+		}
 		.nav-top-link {
 			font-weight: bold;
 		}

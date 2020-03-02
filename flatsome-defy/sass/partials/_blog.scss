@@ -19,5 +19,24 @@ article {
     }
   }
 }
-
+footer.entry-meta {
+  border-top: 0px;
+  padding: 0px;
+  .cat-links,  // hide the footer, old school
+  .sep,
+  .tags-links {
+    display: none;
+  }
+}
 // single
+// hide category & byline
+article {
+  .entry-header{
+    .entry-category {
+      display: none;
+    }
+    .byline {
+      display: none;
+    }
+  }
+}

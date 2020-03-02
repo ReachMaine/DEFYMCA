@@ -158,6 +158,19 @@ article .entry-image img {
   .blog-list-style article h3.entry-title {
     margin-bottom: 0px; }
 
+footer.entry-meta {
+  border-top: 0px;
+  padding: 0px; }
+  footer.entry-meta .cat-links,
+  footer.entry-meta .sep,
+  footer.entry-meta .tags-links {
+    display: none; }
+
+article .entry-header .entry-category {
+  display: none; }
+article .entry-header .byline {
+  display: none; }
+
 /* styling for our team plugin */
 .widget_woothemes_our_team .team-member figure {
   margin-bottom: 0px;

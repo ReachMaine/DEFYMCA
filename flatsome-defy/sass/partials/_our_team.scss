@@ -2,6 +2,10 @@
 // our team plugin/ custom post type
 .widget_woothemes_our_team {
 	.team-member {
+		border: 1px solid $ymca-blue;
+		border-radius: 10px;
+		padding: 6px 6px 0px 6px;
+		margin-bottom: 10px;
 		figure {
 			margin-bottom: 0px;
 			text-align: center;
@@ -10,9 +14,63 @@
 			text-align: center;
 			margin-bottom: 0px;
 		}
+		h3.member {
+			font-size: 1.3em;
+		}
+		p.role {
+			font-style: italic;
+			//font-weight: bold;
+			color: $ymca-teal; //  $ymca-blue;
+		}
+		ul.author-details {
+			li {
+				margin-left: 0px;
+				text-align: center;
+			}
+		}
+		.team-member-text {
+			//padding-top: 14px;
+			.more-link.button {
+				border: 0px;
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+		}
 	}
 
-	.team-member:after {
-	}
+/*	.team-members:after,
+		.team-members.columns-2:after,
+		.team-members.columns-3:after {
+			clear: both;
+			content: " ";
+		} */
 
+}
+.widget_woothemes_our_team:after {
+	clear: both;
+}
+
+// for 3 columns
+@media screen and (min-width: 768px) {
+	.widget_woothemes_our_team {
+
+		.team-members.columns-3 {
+			display:flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			.team-member {
+				width: 32%;
+				//float: left;
+				display: inline-block;
+			}
+
+			.team-member:not(.last) {
+				margin-right: 2%;
+			}
+
+		}
+	}
+	.widget_woothemes_our_team:after {
+		clear: both;
+	}
 }

@@ -220,7 +220,8 @@ function woothemes_our_team ( $args = '' ) {
 				}
 
 				$template = str_replace( '%%TEXT%%', $content, $template );
-				$more_txt = '<a class="read-more" href="'.get_permalink($post).'">Read More</a>';
+				$more_txt = '<a target="_blank" class="read-more zig" href="'.get_permalink($post).'">Read More</a>';
+				// zig - target per julie
 				// now the read more
 
 

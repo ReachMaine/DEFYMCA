@@ -198,6 +198,8 @@ article .entry-header .byline {
     .widget_woothemes_our_team .team-member ul.author-details li {
       margin-left: 0px;
       text-align: center; }
+    .widget_woothemes_our_team .team-member ul.author-details li.our-team-contact-email a {
+      letter-spacing: -1px; }
     .widget_woothemes_our_team .team-member .team-member-text .more-link.button {
       border: 0px;
       margin-top: 0px;

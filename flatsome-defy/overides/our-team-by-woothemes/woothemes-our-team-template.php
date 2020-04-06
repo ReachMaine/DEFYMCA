@@ -209,7 +209,20 @@ function woothemes_our_team ( $args = '' ) {
 				$template 	= str_replace( '%%AVATAR%%', '', $template );
 			    $real_more 	= $more;
 			    $more      	= 0;
-				$content 	= apply_filters( 'woothemes_our_team_content', wpautop( get_the_content('...') ), $post );
+				//$content 	= apply_filters( 'woothemes_our_team_content', wpautop( get_the_content() ), $post );
+				$content_arr = get_extended($post->post_content);
+				$content_str = "";
+				if ($content_arr['extended']) {
+					// there is more
+
+					$content_str .= wpautop($content_arr['main']);
+					$content_str .= '<a class="team_member_expand" on_click=""> + </a>';
+					$ext_content = '<div id="team_member_more'.get_the_ID().'" style="display: none;">'.$content_arr['extended'].'</div>';
+					$content_str .= wpautop($ext_content);
+				}
+				$content 	= apply_filters( 'woothemes_our_team_content',$content_str, $post);
+
+				//echo "<pre>";var_dump($content_arr); echo "</pre>";
 				$more      	= $real_more;
 
 				// Display bio if Team Member is mapped to a user on this site.

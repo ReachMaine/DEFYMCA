@@ -20,6 +20,9 @@ p, ul, ol {
   color: white;
   opacity: 1; }
 
+.menu-item.defy-menu-in {
+  padding-left: 20px; }
+
 ul.header-nav li a {
   font-weight: normal; }
 

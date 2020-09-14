@@ -49,6 +49,16 @@ ul.header-nav li a  {
 .defy-rounded-bigimg {
 	border-radius: 12px;
 }
+.defy-tealborder {
+	border-color: $ymca-teal;
+}
+.defy-blueborder {
+	border-color: $ymca-blue;
+}
+.defy-blueborder-button {
+	border: color: $ymca-blue;
+	color: blue;
+}
 button.primary, .button.primary {
 	border-radius: 4px;
 }
@@ -56,7 +66,7 @@ button.primary, .button.primary {
 .defy-borderbox .col-inner {
 	border: 2px solid $ymca-teal; // $defy-orange;
 	border-radius: 8px;
-	padding-left: 10px;
+	//padding-left: 10px;
 	padding-top: 10px;
 	h2 {
 		//padding-left: 10px;

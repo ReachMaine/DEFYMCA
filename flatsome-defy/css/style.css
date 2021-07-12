@@ -1,87 +1,445 @@
 /*
-Error: Undefined variable: "$defy-teal".
-        on line 53 of C:/Users/zigsp/GitHub/DEFYMCA/flatsome-defy/sass/partials/_settings.scss
-        from line 12 of C:/Users/zigsp/GitHub/DEFYMCA/flatsome-defy/sass/style.scss
-
-48: 			}
-49: 		}
-50: 		.nav-top-link {
-51: 			font-weight: bold;
-52: 		}
-53: 	}
-54: }
-55: #masthead {
-56: 	.left-links {
-57: 		//background-color: red;
-58: 		div.wide-nav-search {
-
-Backtrace:
-C:/Users/zigsp/GitHub/DEFYMCA/flatsome-defy/sass/partials/_settings.scss:53
-C:/Users/zigsp/GitHub/DEFYMCA/flatsome-defy/sass/style.scss:12
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-C:/Ruby25-x64/bin/compass:23:in `load'
-C:/Ruby25-x64/bin/compass:23:in `<main>'
+	Theme Name: defy
+	Description: Flatsome child theme for DEFY
+	Author: LSpeight, Reach Maine Internet Marketing.
+	Author URI: http://www.reachmaine.com/
+	License: GNU General Public License
+	License URI: license.txt
+	Template: flatsome
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$defy-teal\".\A         on line 53 of C:/Users/zigsp/GitHub/DEFYMCA/flatsome-defy/sass/partials/_settings.scss\A         from line 12 of C:/Users/zigsp/GitHub/DEFYMCA/flatsome-defy/sass/style.scss\A \A 48: 			}\A 49: 		}\A 50: 		.nav-top-link {\A 51: 			font-weight: bold;\A 52: 		}\A 53: 	}\A 54: }\A 55: #masthead {\A 56: 	.left-links {\A 57: 		//background-color: red;\A 58: 		div.wide-nav-search {"; }
+/*******************begin _settings.scss ************************/
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+h1, h2, h3, h4, h5, h6, h4 span, .zig-h4 {
+  font-family: Verdana, Geneva, sans-serif; }
+
+p, ul, ol {
+  font-family: Verdana, Geneva, sans-serif; }
+
+#site-navigation > li > a {
+  color: white;
+  opacity: 1; }
+
+.menu-item.defy-menu-in {
+  padding-left: 20px; }
+
+ul.header-nav li a {
+  font-weight: normal; }
+
+.defy-br8 {
+  border-radius: 8px; }
+
+.defy-rounded-img {
+  border-radius: 8px; }
+
+.defy-rounded-bigimg {
+  border-radius: 12px; }
+
+.defy-tealborder {
+  border-color: #01a490; }
+
+.defy-blueborder {
+  border-color: #0089D0; }
+
+.defy-blueborder-button {
+  border-color: #0089D0; }
+
+button.primary, .button.primary {
+  border-radius: 4px; }
+
+.defy-borderbox .column-inner,
+.defy-borderbox .col-inner {
+  border: 2px solid #01a490;
+  border-radius: 8px;
+  padding-left: 10px;
+  padding-top: 10px; }
+  .defy-borderbox .column-inner h2,
+  .defy-borderbox .col-inner h2 {
+    margin-top: 0px; }
+
+img {
+  border-radius: 8px; }
+
+.tabbed-content {
+  border-top: 2px solid #eeeeee; }
+  .tabbed-content ul li.tab {
+    margin-right: 20px; }
+
+.accordion.defy-accordian .accordion-item .accordion-title {
+  color: #f47920;
+  font-family: Cache;
+  font-weight: bold;
+  font-size: 20px; }
+  .accordion.defy-accordian .accordion-item .accordion-title button.toggle {
+    background-color: #01a490;
+    color: white; }
+  .accordion.defy-accordian .accordion-item .accordion-title span {
+    padding-left: 8px; }
+
+/*******************end _settings.scss ************************/
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+@media print {
+  body #masthead a[href]:after, body #site-navigation a[href]:after, body #menu-top-nav-and-footer-nav a[href]:after, body #menu-footer a[href]:after {
+    content: ""; }
+  body a[href]:after {
+    content: ""; }
+  body #top-bar .left-text {
+    padding: 0px;
+    margin: 0px; }
+  body #top-bar .right-text.right.hide-for-small {
+    display: none;
+    visibility: hidden;
+    padding: 0px;
+    margin: 0px;
+    height: 0px; }
+  body #masthead {
+    height: 0px; }
+    body #masthead .header-container {
+      display: block;
+      height: 80px; }
+      body #masthead .header-container #logo {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        vertical-align: top;
+        float: left;
+        display: block;
+        height: 80px; }
+        body #masthead .header-container #logo a {
+          padding-top: 0px; }
+          body #masthead .header-container #logo a img {
+            height: 80px; }
+    body #masthead .mobile-menu {
+      display: none;
+      visibility: hidden;
+      margin: 0px;
+      padding: 0px;
+      height: 0px; }
+
+  .hide-for-print {
+    display: none;
+    visibility: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 0px; } }
+/* *** styling for tribe events... */
+.tribe-events-abbr.updated {
+  display: block; }
+
+.tribe-events-list .tribe-events-list-event-title {
+  float: left !important; }
+
+.tribe-events-list .tribe-events-event-cost {
+  float: left;
+  margin-left: 0px;
+  margin-top: 10px;
+  clear: both; }
+
+.tribe-events-single-section.tribe-events-event-meta .tribe-events-meta-group.tribe-events-meta-group-details,
+.tribe-events-single-section.tribe-events-event-meta .tribe-events-meta-group.tribe-events-meta-group-organizer {
+  width: 50%; }
+
+.column.tribe-week-grid-hours {
+  width: 40px; }
+
+.tribe-events-grid .tribe-grid-content-wrap .column {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.slimScrollDiv {
+  height: 790px !important; }
+  .slimScrollDiv .tribe-week-grid-wrapper {
+    height: 790px !important; }
+
+.tribe-vcard {
+  border: 1px solid #DDD; }
+
+@media print {
+  body #tribe-events-bar,
+  body #tribe-bar-form,
+  body #tribe-bar-views,
+  body .tribe-bar-filters,
+  body #tribe-events-footer,
+  body .tribe-events-ical {
+    display: none;
+    visibility: hidden;
+    margin: 0px; }
+  body #tribe-events-content h2.tribe-events-page-title {
+    font-size: 20px; }
+    body #tribe-events-content h2.tribe-events-page-title a {
+      font-size: 20px; } }
+/* *** end styling for tribe events... */
+/* styling for blogs */
+article .entry-image img {
+  width: auto; }
+
+.blog-list-style article {
+  margin-bottom: 0px; }
+  .blog-list-style article .entry-image img {
+    max-height: 240px; }
+  .blog-list-style article h3.entry-title {
+    margin-bottom: 0px; }
+
+footer.entry-meta {
+  border-top: 0px;
+  padding: 0px; }
+  footer.entry-meta .cat-links,
+  footer.entry-meta .sep,
+  footer.entry-meta .tags-links {
+    display: none; }
+
+article .entry-header .entry-category {
+  display: none; }
+article .entry-header .byline {
+  display: none; }
+
+/* styling for our team plugin */
+.widget_woothemes_our_team {
+  /*	.team-members:after,
+  		.team-members.columns-2:after,
+  		.team-members.columns-3:after {
+  			clear: both;
+  			content: " ";
+  		} */ }
+  .widget_woothemes_our_team .team-member {
+    border: 1px solid #0089D0;
+    border-radius: 10px;
+    padding: 6px 6px 0px 6px;
+    margin-bottom: 10px; }
+    .widget_woothemes_our_team .team-member figure {
+      margin-bottom: 0px;
+      text-align: center; }
+    .widget_woothemes_our_team .team-member h3.member, .widget_woothemes_our_team .team-member p.role {
+      text-align: center;
+      margin-bottom: 0px; }
+    .widget_woothemes_our_team .team-member h3.member {
+      font-size: 1.3em; }
+    .widget_woothemes_our_team .team-member p.role {
+      font-style: italic;
+      color: #01a490; }
+    .widget_woothemes_our_team .team-member ul.author-details li {
+      margin-left: 0px;
+      text-align: center; }
+    .widget_woothemes_our_team .team-member ul.author-details li.our-team-contact-email a {
+      letter-spacing: -1px; }
+    .widget_woothemes_our_team .team-member .team-member-text .more-link.button {
+      border: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+
+.widget_woothemes_our_team:after {
+  clear: both; }
+
+@media screen and (min-width: 768px) {
+  .widget_woothemes_our_team .team-members.columns-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; }
+    .widget_woothemes_our_team .team-members.columns-3 .team-member {
+      width: 32%;
+      display: inline-block; }
+    .widget_woothemes_our_team .team-members.columns-3 .team-member:not(.last) {
+      margin-right: 2%; }
+
+  .widget_woothemes_our_team:after {
+    clear: both; } }
+/* job listings style */
+body.single-job_listing .entry-image {
+  display: none; }
+
+* {
+  -moz-box-sizing: border-box; }
+
+/* Theme customization starts here */
+@font-face {
+  font-family: Cache;
+  src: url("Cache.otf"); }
+h1, h2, h3, h4, h5, h4 span, div.post-date, li.menu-item, div.left-text, a.button {
+  font-family: Cache !important; }
+
+/*  header stuff */
+#top-bar .nav-left .html_topbar_left {
+  font-weight: bold; }
+#top-bar ul.top-bar-nav li.menu-item a.nav-top-link {
+  color: white; }
+#top-bar ul.top-bar-nav li.menu-item a.nav-top-link:hover {
+  color: rgba(255, 255, 255, 0.8); }
+#top-bar ul.top-bar-nav .nav-top-link {
+  font-weight: bold; }
+
+#masthead .left-links div.wide-nav-search {
+  float: right; }
+#masthead .left-links div.wide-nav-search > div {
+  display: block;
+  width: 100%;
+  float: right; }
+  #masthead .left-links div.wide-nav-search > div #searchform {
+    float: right; }
+  #masthead .left-links div.wide-nav-search > div img {
+    float: right; }
+
+#wide-nav ul.nav > li.menu-item a {
+  text-transform: uppercase; }
+#wide-nav ul.nav > li.menu-item a.nav-top-link {
+  font-weight: bold; }
+
+header.stuck div.wide-nav-search img {
+  display: none; }
+
+.wide-nav.hide-for-small.dark-header.nav-center {
+  border-radius: 9px; }
+
+.defy-gym-field {
+  clear: both;
+  font-size: 1.1em;
+  color: black; }
+  .defy-gym-field a {
+    color: black !important; }
+
+#contenttop-widetarea {
+  margin-top: -30px; }
+
+.defy-hide {
+  display: none !important; }
+
+/* Footer Stuff */
+div.footer-nav li a {
+  color: white; }
+
+/* ux banners (used as banners and singly */
+.ux_banner h1, .ux_banner h2, .ux_banner h3 {
+  text-shadow: 1px 2px #131313 !important; }
+
+.homepage-slideshow .ux_banner .inner.bottom {
+  bottom: 0% !important; }
+.homepage-slideshow .ux_banner .inner {
+  left: 0% !important;
+  padding: 0% !important; }
+
+.ux_banner h3 {
+  margin: 0px; }
+.ux_banner .button {
+  margin: 10px 5px 0px;
+  border-radius: 4px; }
+
+/* new homepage side box */
+ul.display-posts-listing {
+  list-style: none;
+  margin-left: 0px;
+  margin-bottom: 0px; }
+  ul.display-posts-listing span.date {
+    font-size: .8em;
+    color: #bbb;
+    display: block; }
+  ul.display-posts-listing a.title {
+    color: white;
+    font-weight: bold; }
+  ul.display-posts-listing li.listing-item {
+    margin-left: 0px;
+    padding-bottom: 15px;
+    line-height: 1.1em; }
+
+.homepage-slideshow .recent-news {
+  border-radius: 8px; }
+
+/* page stuff */
+.top-divider {
+  border: 0px; }
+
+.widget_recent_entries ul li {
+  padding-top: 15px; }
+
+#cff .cff-author .cff-page-name.cff-author-date {
+  color: #3b5998; }
+
+.homepage-side-menu {
+  color: white;
+  background-color: teal;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  text-indent: 9%;
+  padding: 21px 0px;
+  font-size: 44px;
+  font-family: Cache;
+  line-height: 1em; }
+
+div.three-col-boxes {
+  text-align: center; }
+
+div.three-col-boxes ul {
+  list-style: none;
+  color: #01a490;
+  font-weight: bold;
+  margin-left: 0px; }
+
+div.three-col-boxes a {
+  color: #01a490; }
+
+div.three-col-boxes a:hover {
+  color: #0089D0; }
+
+ul.giving-list {
+  font-size: .9em; }
+
+.recent-news ul {
+  text-align: center; }
+
+#secondary .widget_nav_menu ul.menu li a {
+  text-transform: uppercase; }
+
+.defy-locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 960px;
+  margin: auto; }
+  .defy-locations .defy-single-location {
+    padding: 0px 0px 35px;
+    width: 300px;
+    text-align: left; }
+    .defy-locations .defy-single-location p {
+      margin-top: .2em; }
+    .defy-locations .defy-single-location .defy-location-name {
+      font-size: 1em;
+      margin-bottom: 0em;
+      color: #d8d8d8;
+      text-transform: uppercase;
+      font-weight: normal; }
+      .defy-locations .defy-single-location .defy-location-name a:hover {
+        color: #01a490; }
+    .defy-locations .defy-single-location .defy-location-address {
+      font-weight: normal;
+      margin: 0em;
+      font-size: .8em;
+      line-height: 2em; }
+      .defy-locations .defy-single-location .defy-location-address a {
+        margin-left: 10px; }
+    .defy-locations .defy-single-location .defy-location-phone {
+      margin-bottom: 0em;
+      font-size: .8em;
+      line-height: 1em; }
+      .defy-locations .defy-single-location .defy-location-phone a:hover {
+        color: #0089D0; }
+    .defy-locations .defy-single-location .defy-hours-title {
+      font-weight: bold;
+      font-size: 1.2em; }
+    .defy-locations .defy-single-location p {
+      line-height: .3em;
+      font-size: 1em; }
+    .defy-locations .defy-single-location span {
+      line-height: 1.2em; }
+
+.null-instagram-feed {
+  background-color: white;
+  border-radius: 5px; }
+  .null-instagram-feed .widget-title {
+    color: #555; }
+  .null-instagram-feed ul.instagram-pics li {
+    width: 50%; }
+  .null-instagram-feed p a {
+    color: #f47920; }
+
+@media only screen and (max-width: 480px) {
+  img.defy-100wide-mobile {
+    width: 100%; } }

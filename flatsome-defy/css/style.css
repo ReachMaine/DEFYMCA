@@ -244,9 +244,15 @@ article .entry-header .byline {
 
   .widget_woothemes_our_team:after {
     clear: both; } }
+/*  archive */
+.job_listings .date {
+  display: none !important; }
+
 /* job listings style */
 body.single-job_listing .entry-image {
-  display: none; }
+  display: none !important; }
+body.single-job_listing .date-posted {
+  display: none !important; }
 
 * {
   -moz-box-sizing: border-box; }

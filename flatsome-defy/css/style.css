@@ -52,6 +52,7 @@ button.primary, .button.primary {
   border: 2px solid #01a490;
   border-radius: 8px;
   padding-left: 10px;
+  padding-right: 10px;
   padding-top: 10px; }
   .defy-borderbox .column-inner h2,
   .defy-borderbox .col-inner h2 {

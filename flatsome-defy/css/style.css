@@ -77,6 +77,9 @@ img {
   .accordion.defy-accordian .accordion-item .accordion-title span {
     padding-left: 8px; }
 
+.defy-col-tite {
+  padding-bottom: 0px; }
+
 /*******************end _settings.scss ************************/
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
@@ -450,3 +453,5 @@ ul.giving-list {
 @media only screen and (max-width: 480px) {
   img.defy-100wide-mobile {
     width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */

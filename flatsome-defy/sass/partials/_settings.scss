@@ -21,6 +21,7 @@ $ymca-blue: #0089D0;
 $defy-orange:  #f47920;
 $navcolStartColor: #ffd3cc; // orig.  #f2f2f2;
 $navcolEndColor:#e87a56 ;// orig #e5e5e5;
+$defy-yellow:  #fcaf17;
 /* Typography ------------------------------------------ */
 h1, h2, h3, h4, h5, h6, h4 span, .zig-h4  {
 	font-family: Verdana, Geneva, sans-serif;
@@ -104,5 +105,12 @@ img {
 
 .defy-col-tite {
 	padding-bottom: 0px;
+}
+
+.defy-hilite-yellow { // class on row
+	background-color: rgba(252,175,23,.6); // $defy-yellow at 60%. 
+}
+.defy-hilite-orange {
+	background-color: $defy-orange;
 }
 /*******************end _settings.scss ************************/

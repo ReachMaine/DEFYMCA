@@ -80,6 +80,12 @@ img {
 .defy-col-tite {
   padding-bottom: 0px; }
 
+.defy-hilite-yellow {
+  background-color: rgba(252, 175, 23, 0.6); }
+
+.defy-hilite-orange {
+  background-color: #f47920; }
+
 /*******************end _settings.scss ************************/
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:

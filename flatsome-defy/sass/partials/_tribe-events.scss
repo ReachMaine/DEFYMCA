@@ -62,5 +62,43 @@
 
 	}
 }
+
+/* --------------- newer Events sytling... ------------------- */ 
+// overriding tec variables 
+:root {
+	//--tec-color-text-primary-light: #777;
+	--tec-color-link-primary: #1e73be;
+	--tec-color-text-primary: #777;
+
+}
+
+// single event content...
+.tribe-events-content {
+	//color: #777;
+	a {
+		border-bottom: 0px;
+	}
+
+	a.button.primary {
+		background-color: #0090d5;
+		color: white;
+	}
+	a.button.primary:hover {
+		background-color: #0090d5; // hover blue;
+		color: white;
+	}
+}
+.tribe-events-event-meta {
+	width: 100%;
+	dl {
+		opacity: 1;
+		font-size: 1em; // flush flatsome styling
+		dt {
+			font-weight: bold;
+			display: block;
+			text-decoration: underline;
+		}
+	}
+}
 /* *** end styling for tribe events... */
 

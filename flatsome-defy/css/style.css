@@ -179,6 +179,30 @@ img {
     font-size: 20px; }
     body #tribe-events-content h2.tribe-events-page-title a {
       font-size: 20px; } }
+/* --------------- newer Events sytling... ------------------- */
+:root {
+  --tec-color-link-primary: #1e73be;
+  --tec-color-text-primary: #777; }
+
+.tribe-events-content a {
+  border-bottom: 0px; }
+.tribe-events-content a.button.primary {
+  background-color: #0090d5;
+  color: white; }
+.tribe-events-content a.button.primary:hover {
+  background-color: #0090d5;
+  color: white; }
+
+.tribe-events-event-meta {
+  width: 100%; }
+  .tribe-events-event-meta dl {
+    opacity: 1;
+    font-size: 1em; }
+    .tribe-events-event-meta dl dt {
+      font-weight: bold;
+      display: block;
+      text-decoration: underline; }
+
 /* *** end styling for tribe events... */
 /* styling for blogs */
 article .entry-image img {

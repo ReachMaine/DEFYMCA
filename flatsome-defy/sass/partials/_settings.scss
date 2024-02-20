@@ -60,6 +60,23 @@ ul.header-nav li a  {
 .defy-blueborder-button {
 	border-color: $ymca-blue;
 }
+// menu styling per Julie Feb 24 - large flyout menus...
+
+.nav-dropdown .menu-item-has-children>a, 
+.nav-dropdown .nav-dropdown-col>a, 
+.nav-dropdown .title>a {
+	font-size: 1em;
+}
+#wide-nav ul.sub-menu.nav-column > li.menu-item a {
+	text-transform: none!important;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+#wide-nav li.defy-menu-parent a { // make a menu item look like it has a child ex: bucksport fitness
+	font-weight: bold;
+	color: black;
+}
+
 button.primary, .button.primary {
 	border-radius: 4px;
 }

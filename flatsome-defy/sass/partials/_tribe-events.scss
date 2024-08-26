@@ -100,5 +100,15 @@
 		}
 	}
 }
+// tribe events shortcode 
 /* *** end styling for tribe events... */
 
+ul.ecs-event-list {
+	li.ecs-event {
+		list-style: none;
+		padding-bottom: 8px; // adds to margin of .6em;
+		.entry-title.summary {
+			margin-bottom: 0px;
+		}
+	}
+}

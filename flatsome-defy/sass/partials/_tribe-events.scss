@@ -111,4 +111,16 @@ ul.ecs-event-list {
 			margin-bottom: 0px;
 		}
 	}
+	li.ecs-event.ecs-featured-event {
+
+		.entry-title a {
+			color: black!important; 
+		}
+		.entry-title:before {
+			content: "*";
+			float: left;
+			color: black;
+		}
+
+	}
 }
